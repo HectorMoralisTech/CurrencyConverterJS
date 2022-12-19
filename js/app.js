@@ -52,7 +52,7 @@ const convert = async () => {
     const apiUrl = "https://api.apilayer.com/currency_data/convert?to=" + to + "&from=" + from + "&amount="+ amount;
 
     var myHeaders = new Headers();
-    myHeaders.append("apikey", "0aQMJgGVescgWS6X2s0T1B79nMmyiLsA");
+    myHeaders.append("apikey", API_KEY);
 
     const requestOptions = {
         method: 'GET',
